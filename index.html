@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Closets 2.0 — Mobiliario & Diseño Inteligente · Neiva, Huila</title>
+  <meta name="description" content="Cocinas integrales y closets a la medida en Neiva, Huila. Diseño personalizado, calidad garantizada y entrega puntual."/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav id="navbar">
+    <div class="nav-logo">
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="3" y="3" width="20" height="26" rx="1" stroke="#8B6340" stroke-width="2" fill="none"/>
+        <rect x="8" y="3" width="15" height="20" rx="1" stroke="#8B6340" stroke-width="2" fill="none"/>
+        <circle cx="22" cy="16" r="1.5" fill="#8B6340"/>
+      </svg>
+      <span>Closets <strong>2.0</strong></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#proceso">Proceso</a></li>
+      <li><a href="#testimonios">Testimonios</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <a href="https://wa.me/573164700955?text=Hola!%20Quiero%20información%20sobre%20un%20proyecto" class="nav-cta" target="_blank">
+      Escríbenos
+    </a>
+    <button class="nav-hamburger" id="hamburger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Menú móvil -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#servicios" class="mob-link">Servicios</a></li>
+      <li><a href="#galeria" class="mob-link">Galería</a></li>
+      <li><a href="#proceso" class="mob-link">Proceso</a></li>
+      <li><a href="#testimonios" class="mob-link">Testimonios</a></li>
+      <li><a href="#faq" class="mob-link">FAQ</a></li>
+      <li>
+        <a href="https://wa.me/573164700955" class="mob-wa" target="_blank">Escríbenos por WhatsApp</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- ── HERO ── -->
+  <section id="inicio">
+    <div class="hero-left">
+      <p class="hero-eyebrow">Neiva · Huila · Colombia</p>
+      <h1 class="hero-title">
+        Diseñamos<br/>
+        <em>espacios</em> que<br/>
+        cuentan algo.
+      </h1>
+      <p class="hero-sub">Cocinas integrales y closets a la medida, fabricados en melamina RH de alta calidad. Cada proyecto es único, como tu hogar.</p>
+      <div class="hero-valores">
+        <div class="valor-chip">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          Calidad garantizada
+        </div>
+        <div class="valor-chip">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          Diseño personalizado
+        </div>
+        <div class="valor-chip">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          Entrega puntual
+        </div>
+      </div>
+      <div class="hero-btns">
+        <a href="https://wa.me/573164700955?text=Hola!%20Quiero%20información%20sobre%20un%20proyecto" class="btn-primary" target="_blank">
+          Hablar con nosotros
+        </a>
+        <a href="#galeria" class="btn-ghost">Ver trabajos</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-collage">
+        <img class="col-a" src="images/cocina3.jpeg" alt="Cocina integral moderna" loading="lazy"/>
+        <img class="col-b" src="images/closet1.jpeg" alt="Closet a la medida" loading="lazy"/>
+        <img class="col-c" src="images/cocina4.jpeg" alt="Cocina moderna" loading="lazy"/>
+        <img class="col-d" src="images/Cocina1.jpeg" alt="Cocina integral a la medida" loading="lazy"/>
+        <div class="hero-badge">
+          <span class="badge-num">+50</span>
+          <span class="badge-txt">proyectos<br/>entregados</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SERVICIOS ── -->
+  <section id="servicios">
+    <div class="section-head">
+      <p class="eyebrow">Lo que hacemos</p>
+      <h2 class="section-title">Solo dos cosas,<br/>pero las hacemos <em>muy bien</em></h2>
+    </div>
+    <div class="servicios-grid">
+      <div class="servicio-card grande">
+        <div class="serv-img-wrap">
+          <img src="images/cocina3.jpeg" alt="Cocina integral" loading="lazy"/>
+          <div class="serv-overlay"></div>
+        </div>
+        <div class="serv-body">
+          <div class="serv-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><circle cx="12" cy="10" r="2"/></svg>
+          </div>
+          <h3 class="serv-name">Cocinas Integrales</h3>
+          <p class="serv-desc">Diseñadas desde cero para tu espacio real. Módulos altos, bajos, con o sin isla. Aprovechamos cada centímetro sin sacrificar estética.</p>
+          <a href="https://wa.me/573164700955?text=Quiero%20información%20sobre%20cocinas%20integrales" class="serv-link" target="_blank">
+            Consultar →
+          </a>
+        </div>
+      </div>
+      <div class="servicio-card grande">
+        <div class="serv-img-wrap alto">
+          <img src="images/closet8.jpeg" alt="Closet a la medida" loading="lazy"/>
+          <div class="serv-overlay"></div>
+        </div>
+        <div class="serv-body">
+          <div class="serv-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="2" width="18" height="20" rx="1"/><line x1="12" y1="2" x2="12" y2="22"/><circle cx="9" cy="12" r="1"/><circle cx="15" cy="12" r="1"/></svg>
+          </div>
+          <h3 class="serv-name">Closets a la Medida</h3>
+          <p class="serv-desc">Con divisiones, cajones, barras y organizadores. Tu ropa y accesorios en orden, en un mueble que encaja perfecto en tu habitación.</p>
+          <a href="https://wa.me/573164700955?text=Quiero%20información%20sobre%20closets%20a%20la%20medida" class="serv-link" target="_blank">
+            Consultar →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── GALERÍA ── -->
+  <section id="galeria">
+    <div class="section-head centrado">
+      <p class="eyebrow">Trabajos realizados</p>
+      <h2 class="section-title">Proyectos que <em>hablan</em><br/>por sí solos</h2>
+      <p class="section-sub">Cada foto es un cliente satisfecho.</p>
+    </div>
+    <div class="galeria-grid">
+      <div class="gal-item tall">
+        <img src="images/cocina2.jpeg" alt="Cocina esquinera" loading="lazy"/>
+        <div class="gal-info">
+          <span class="gal-tipo">Cocina en L</span>
+          <span class="gal-lugar">Neiva, Huila</span>
+        </div>
+      </div>
+      <div class="gal-item">
+        <img src="images/closets3.jpeg" alt="Closet moderno" loading="lazy"/>
+        <div class="gal-info">
+          <span class="gal-tipo">Closet moderno</span>
+          <span class="gal-lugar">Neiva, Huila</span>
+        </div>
+      </div>
+      <div class="gal-item">
+        <img src="images/closets4.jpeg" alt="Cocina en L" loading="lazy"/>
+        <div class="gal-info">
+          <span class="gal-tipo">Buena distribucion de espacio</span>
+          <span class="gal-lugar">Neiva, Huila</span>
+        </div>
+      </div>
+      <div class="gal-item">
+        <img src="images/closets5.jpeg" alt="Closet con cajones" loading="lazy"/>
+        <div class="gal-info">
+          <span class="gal-tipo">Closet con amplios cajones</span>
+          <span class="gal-lugar">Neiva, Huila</span>
+        </div>
+      </div>
+      <div class="gal-item">
+        <img src="images/cocina4.jpeg" alt="Cocina integral moderna" loading="lazy"/>
+        <div class="gal-info">
+          <span class="gal-tipo">Cocina integral</span>
+          <span class="gal-lugar">Neiva, Huila</span>
+        </div>
+      </div>
+    </div>
+    <div class="galeria-footer">
+      <a href="https://www.instagram.com/mobiliario_closets_2.0" class="btn-ig" target="_blank">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        Ver más en Instagram
+      </a>
+    </div>
+  </section>
+
+  <!-- ── PROCESO ── -->
+  <section id="proceso">
+    <div class="proceso-inner">
+      <div class="section-head">
+        <p class="eyebrow">Cómo trabajamos</p>
+        <h2 class="section-title">Del primer mensaje<br/>a tu <em>proyecto listo</em></h2>
+        <p class="section-sub">Un proceso claro, sin sorpresas y con comunicación directa en cada etapa.</p>
+      </div>
+      <div class="proceso-pasos">
+        <div class="paso">
+          <div class="paso-num">01</div>
+          <div class="paso-content">
+            <h3 class="paso-title">Nos escribes</h3>
+            <p class="paso-desc">Mándanos un WhatsApp con fotos del espacio y medidas aproximadas. Sin formularios, sin pasos complicados. En menos de 2 horas te respondemos.</p>
+          </div>
+        </div>
+        <div class="paso-linea"></div>
+        <div class="paso">
+          <div class="paso-num">02</div>
+          <div class="paso-content">
+            <h3 class="paso-title">Visita técnica</h3>
+            <p class="paso-desc">Vamos a tu casa, tomamos medidas exactas, conversamos sobre el diseño, materiales y colores. Tú decides cada detalle.</p>
+          </div>
+        </div>
+        <div class="paso-linea"></div>
+        <div class="paso">
+          <div class="paso-num">03</div>
+          <div class="paso-content">
+            <h3 class="paso-title">Fabricación</h3>
+            <p class="paso-desc">Fabricamos tu mueble en melamina RH de 15mm con herrajes de calidad. Riguroso control en cada detalle antes de salir del taller.</p>
+          </div>
+        </div>
+        <div class="paso-linea"></div>
+        <div class="paso">
+          <div class="paso-num">04</div>
+          <div class="paso-content">
+            <h3 class="paso-title">Instalación</h3>
+            <p class="paso-desc">Instalamos en tu hogar en la fecha acordada. Limpiamos y te entregamos todo funcionando. La fecha se compromete desde el primer día.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TESTIMONIOS ── -->
+  <section id="testimonios">
+    <div class="section-head centrado">
+      <p class="eyebrow">Lo que dicen nuestros clientes</p>
+      <h2 class="section-title">La <em>mejor carta</em><br/>de presentación</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-texto">"La cocina quedó exactamente como la imaginé. Desde el primer WhatsApp hasta la instalación, todo fue claro y en los tiempos prometidos. Se nota la calidad del material."</p>
+        <div class="testi-autor">
+          <div class="testi-avatar">A</div>
+          <div>
+            <div class="testi-nombre">Andrea R.</div>
+            <div class="testi-ciudad">Neiva, Huila</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card destacado">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-texto">"El closet quedó perfecto, cumplidos con la fecha. Llevamos ya 2 proyectos con ellos y siempre el mismo nivel de atención."</p>
+        <div class="testi-autor">
+          <div class="testi-avatar">C</div>
+          <div>
+            <div class="testi-nombre">Carlos M.</div>
+            <div class="testi-ciudad">Neiva, Huila</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-texto">"Excelente calidad de materiales. Se nota la diferencia con otras carpinterías. El diseño quedó moderno y muy funcional para el espacio que teníamos."</p>
+        <div class="testi-autor">
+          <div class="testi-avatar">F</div>
+          <div>
+            <div class="testi-nombre">Familia Torres</div>
+            <div class="testi-ciudad">Neiva, Huila</div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- ── FAQ ── -->
+  <section id="faq">
+    <div class="faq-inner">
+      <div class="section-head">
+        <p class="eyebrow">Resolvemos tus dudas</p>
+        <h2 class="section-title">Preguntas<br/><em>frecuentes</em></h2>
+        <p class="section-sub">Si no encuentras tu respuesta, escríbenos al WhatsApp.</p>
+      </div>
+      <div class="faq-lista">
+        <div class="faq-item">
+          <button class="faq-pregunta" aria-expanded="false">
+            ¿Trabajan en toda Neiva?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-respuesta">
+            <p>Sí, trabajamos en toda Neiva y municipios cercanos del Huila. La visita técnica y la instalación no tienen costo adicional dentro de la ciudad.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-pregunta" aria-expanded="false">
+            ¿Cuánto tiempo tardan en entregar?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-respuesta">
+            <p>El tiempo de entrega oscila entre 10 y 20 días hábiles según el tamaño del proyecto. La fecha exacta se acuerda y se compromete desde el primer día.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-pregunta" aria-expanded="false">
+            ¿Cómo es la forma de pago?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-respuesta">
+            <p>Trabajamos con el 50% al inicio del proyecto y el 50% restante al momento de la instalación. Sin costos ocultos ni cobros adicionales.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-pregunta" aria-expanded="false">
+            ¿Puedo ver el diseño antes de que fabriquen?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-respuesta">
+            <p>Sí. Antes de fabricar te mostramos el diseño para que puedas aprobar materiales, colores y distribución. Ajustamos hasta que quedes 100% satisfecho.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-pregunta" aria-expanded="false">
+            ¿Qué materiales usan?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-respuesta">
+            <p>Todos los muebles están fabricados en melamina RH de 15 mm de alta densidad, un material especialmente diseñado para ofrecer alta resistencia a la humedad, gran durabilidad y un excelente acabado estético. Además, todos los herrajes utilizados son de primera calidad, garantizando un funcionamiento óptimo, mayor resistencia y una larga vida útil.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-pregunta" aria-expanded="false">
+            ¿Tienen garantía?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-respuesta">
+            <p>Sí. Todos nuestros proyectos tienen garantía de 1 año en materiales y mano de obra. Si algo falla, volvemos sin costo adicional.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACTO ── -->
+  <section id="contacto">
+    <div class="contacto-inner">
+      <div class="contacto-texto">
+        <p class="eyebrow">Hablemos hoy</p>
+        <h2 class="section-title">Tu proyecto empieza<br/>con un <em>mensaje</em></h2>
+        <p class="section-sub">Sin formularios. Sin demoras. Escríbenos por WhatsApp con la foto de tu espacio y las medidas aproximadas — te respondemos en el día.</p>
+        <div class="contacto-datos">
+          <div class="dato-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 0115.88 2.18 2 2 0 0118 4.36v3a2 2 0 01-1.45 1.93 16 16 0 01-2.76.37 15.93 15.93 0 00-6.29 6.29 16 16 0 01-.37 2.76A2 2 0 018.08 22z"/></svg>
+            316 470 0955
+          </div>
+          <div class="dato-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            @mobiliario_closets_2.0
+          </div>
+          <div class="dato-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Neiva, Huila
+          </div>
+        </div>
+        <div class="contacto-cta-row">
+          <a href="https://wa.me/573164700955?text=Hola!%20Quiero%20información%20sobre%20un%20proyecto%20de%20cocina%20o%20closet" class="btn-wa" target="_blank">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Escribir por WhatsApp
+          </a>
+          <div class="contacto-tag">
+            <span>🏆</span>
+            <span>Diseño Personalizado<br/>Calidad que se ve,<br/>funcionalidad que se vive.</span>
+          </div>
+        </div>
+      </div>
+      <div class="contacto-img-wrap">
+        <div class="contacto-collage">
+          <div class="collage-main-wrap">
+            <img class="collage-main" src="images/closet9.jpeg" alt="Closet corredizo a la medida" loading="lazy"/>
+          </div>
+          <div class="collage-small-wrap">
+            <img class="collage-small" src="images/closet10.jpeg" alt="Vestier en madera a la medida" loading="lazy"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <svg width="26" height="26" viewBox="0 0 32 32" fill="none"><rect x="3" y="3" width="20" height="26" rx="1" stroke="#8B6340" stroke-width="2" fill="none"/><rect x="8" y="3" width="15" height="20" rx="1" stroke="#8B6340" stroke-width="2" fill="none"/><circle cx="22" cy="16" r="1.5" fill="#8B6340"/></svg>
+        <span>Closets <strong>2.0</strong></span>
+      </div>
+      <p class="footer-slogan">Mobiliario & Diseño Inteligente · Neiva, Huila</p>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/mobiliario_closets_2.0" target="_blank">Instagram</a>
+        <a href="https://wa.me/573164700955" target="_blank">WhatsApp</a>
+      </div>
+      <p class="footer-copy">© 2026 Closets 2.0 · Diseñado por <a href="#" style="color:var(--dorado)">Veltor</a></p>
+    </div>
+  </footer>
+
+  <!-- ── WhatsApp flotante ── -->
+  <a href="https://wa.me/573164700955?text=Hola!%20Quiero%20información%20sobre%20un%20proyecto" class="wa-float" target="_blank" aria-label="WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
