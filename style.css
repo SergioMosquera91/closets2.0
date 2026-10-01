@@ -354,7 +354,7 @@ body {
   line-height: 1; flex-shrink: 0;
   width: 70px; text-align: right;
 }
-.paso-content {}
+
 .paso-title {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.35rem; font-weight: 600;
@@ -458,7 +458,6 @@ body {
   display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center;
 }
 
-.contacto-texto {}
 .contacto-texto .section-title { margin: 10px 0 14px; }
 
 .contacto-datos { display: flex; flex-direction: column; gap: 14px; margin: 24px 0; }
